@@ -60,13 +60,13 @@ var setTimeout_ = setTimeout;
 setTimeout = function(){};
 ```
 
-![image-20241228152413764](C:\Users\20962\AppData\Roaming\Typora\typora-user-images\image-20241228152413764.png)
+![image-20241228152413764](img\image-20241228152413764.png)
 
 hook操作后发现控制台一直在弹信息，这里应该是log和clear的操作。
 
 跟进去
 
-![image-20241228152544033](C:\Users\20962\AppData\Roaming\Typora\typora-user-images\image-20241228152544033.png)
+![image-20241228152544033](img\image-20241228152544033.png)
 
 hook掉
 

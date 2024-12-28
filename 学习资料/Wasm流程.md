@@ -4,11 +4,11 @@
 
 * 下载wasm文件，将wasm文件放入jeb反汇编调试工具中，选择wasmbc。
 
-  ![image-20241203112700498](C:\Users\20962\AppData\Roaming\Typora\typora-user-images\image-20241203112700498.png)
+  ![image-20241203112700498](img\image-20241203112700498.png)
 
 * 对网页和调试工具中的代码进行动静态结合调试
 
-  ![image-20241203114805496](C:\Users\20962\AppData\Roaming\Typora\typora-user-images\image-20241203114805496.png)
+  ![image-20241203114805496](img\image-20241203114805496.png)
 
   这里是sign的加密位置，this.$wasm.asm.encrypt（）为加密函数，这个加密函数在wasm文件中执行。
 
@@ -18,7 +18,7 @@
 
   
 
-  ![image-20241203114954502](C:\Users\20962\AppData\Roaming\Typora\typora-user-images\image-20241203114954502.png)
+  ![image-20241203114954502](img\image-20241203114954502.png)
 
   在左边有五个函数，这里加密函数的特征已经很明显了。
 
@@ -57,7 +57,7 @@
 
 * 最终我们运行代码
 
-  ![image-20241203115545907](C:\Users\20962\AppData\Roaming\Typora\typora-user-images\image-20241203115545907.png)
+  ![image-20241203115545907](img\image-20241203115545907.png)
 
 正常得到接口的返回值，至此一个简单的wasm已经破解完成。
 

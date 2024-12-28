@@ -18,7 +18,8 @@ const code = fs.readFileSync("codes.js", "utf-8");
 
 // parse 方法将文件内容转换为 AST
 let ast = parser.parse(code);
-traverse(ast,{这里传入的是一个对象，里面包含需要的操作，你可以自己编写对特定节点的操作})
+const visitor = {};
+traverse(ast,visitor)
 
 // generate 将 ast 转换为 JavaScript 代码
 const { code: output } = generator(ast);
