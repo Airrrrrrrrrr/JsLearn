@@ -8,7 +8,7 @@
 
 
 
-![image-20241228151708993](img\image-20241228151708993.png)VM里的无限debugger
+![image-20241228151708993](img/image-20241228151708993.png)VM里的无限debugger
 
 在右边的Call stack里查看上一步做了什么？
 
@@ -60,13 +60,13 @@ var setTimeout_ = setTimeout;
 setTimeout = function(){};
 ```
 
-![image-20241228152413764](img\image-20241228152413764.png)
+![image-20241228152413764](img/image-20241228152413764.png)
 
 hook操作后发现控制台一直在弹信息，这里应该是log和clear的操作。
 
 跟进去
 
-![image-20241228152544033](img\image-20241228152544033.png)
+![image-20241228152544033](img/image-20241228152544033.png)
 
 hook掉
 
