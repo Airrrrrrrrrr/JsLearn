@@ -8,9 +8,7 @@
 
 
 
-![image-20241228151708993](C:\Users\20962\AppData\Roaming\Typora\typora-user-images\image-20241228151708993.png)
-
-VM里的无限debugger
+![image-20241228151708993](img\image-20241228151708993.png)VM里的无限debugger
 
 在右边的Call stack里查看上一步做了什么？
 
