@@ -149,3 +149,4 @@ console.clear = function(){};
 ```
 
 hook完毕后就过掉这个网站的无限debugger了。
+
